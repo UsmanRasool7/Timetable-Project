@@ -1,5 +1,10 @@
 import React from "react";
 import "./Sidebar.css";
+import homeIcon from "../../assets/icons/home.png";
+import TimetableIcon from "../../assets/icons/calendar.png"
+import HelpIcon from "../../assets/icons/question-sign.png"
+import SettingIcon from "../../assets/icons/settings.png"
+import AboutIcon from "../../assets/icons/globe.png"
 
 function Sidebar() {
   return (
@@ -7,19 +12,19 @@ function Sidebar() {
       <h2 className="sidebar-logo">PlaceHolder<span className="dot">•</span></h2>
       <nav className="sidebar-nav">
         <a href="#" className="sidebar-link">
-          <span className="icon">🏠</span> Home
+          <img src={homeIcon} alt="Home" className="icon" /> Home
         </a>
         <a href="#" className="sidebar-link">
-          <span className="icon">📅</span> Timetable
+          <img src={TimetableIcon} alt="Timetable" className="icon" /> Timetable
         </a>
         <a href="#" className="sidebar-link">
-          <span className="icon">❓</span> Get Help
+          <img src={HelpIcon} alt="Get Help" className="icon" /> Get Help
         </a>
         <a href="#" className="sidebar-link">
-          <span className="icon">⚙️</span> Settings
+          <img src={SettingIcon} alt="Settings" className="icon" /> Settings
         </a>
         <a href="#" className="sidebar-link">
-          <span className="icon">🌐</span> About
+          <img src={AboutIcon} alt="About" className="icon" /> About
         </a>
       </nav>
     </div>

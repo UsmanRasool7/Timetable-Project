@@ -16,6 +16,18 @@
     align-items: center;
     margin-bottom: 40px;
   }
+
+  .icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    filter: invert(0.5) grayscale(0.5);
+    transition: filter 0.2s ease-in-out;
+  }
+  
+  .sidebar-link:hover .icon {
+    filter: invert(0.7) grayscale(0.7) brightness(0.7);
+  }
   
   .sidebar-logo .dot {
     color: green;
