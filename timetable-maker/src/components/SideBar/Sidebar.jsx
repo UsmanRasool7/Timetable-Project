@@ -9,7 +9,7 @@ import AboutIcon from "../../assets/icons/globe.png"
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h2 className="sidebar-logo">PlaceHolder<span className="dot">•</span></h2>
+      <h2 className="sidebar-logo">NucesCalendar<span className="dot">•</span></h2>
       <nav className="sidebar-nav">
         <a href="#" className="sidebar-link">
           <img src={homeIcon} alt="Home" className="icon" /> Home
