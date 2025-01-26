@@ -14,7 +14,7 @@ function Sidebar() {
         <a href="#" className="sidebar-link">
           <img src={homeIcon} alt="Home" className="icon" /> Home
         </a>
-        <a href="#" className="sidebar-link">
+        <a href="/Timetable" className="sidebar-link">
           <img src={TimetableIcon} alt="Timetable" className="icon" /> Timetable
         </a>
         <a href="#" className="sidebar-link">
